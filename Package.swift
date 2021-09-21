@@ -19,7 +19,7 @@ let package = Package(
         .package(url: "https://github.com/AliSoftware/OHHTTPStubs.git", .exact("9.1.0")),
         .package(url: "https://github.com/Quick/Quick.git", .exact("3.1.2")),
         .package(url: "https://github.com/Quick/Nimble.git", .exact("9.2.0")),
-        .package(name: "LDSwiftEventSource", url: "https://github.com/thebrowsercompany/swift-eventsource.git", .branch("bugfix/urlsession-and-friends-leak"))
+        .package(name: "LDSwiftEventSource", url: "https://github.com/theiconic/swift-eventsource.git", .branch("master"))
     ],
     targets: [
         .target(
